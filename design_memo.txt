@@ -1,0 +1,7 @@
+For this assignment, I created two different systems to help manage a hospital's daily operations. The first system uses a binary tree to organize the doctor reporting structure. A tree works well for this because it shows how doctors are connected through different levels of management. Instead of keeping everyone in one long list, the tree makes it easier to understand who reports to whom.
+
+The three traversal methods each serve a different purpose. Preorder starts with the parent before moving to the children, which would be useful when sending instructions from management down to employees. Inorder processes the left side, then the parent, and finally the right side. This can be useful when working through information in a specific order, especially in binary search trees. Postorder starts with the children before reaching the parent, which could help when collecting reports from individual doctors before sending them to management.
+
+The second system uses a min-heap to prioritize emergency patients based on urgency. This is important because hospitals cannot always treat patients in the order they arrive. A patient with a more serious condition needs attention before someone with a less urgent issue. The heap automatically adjusts when patients are added or removed, keeping the most urgent patient at the front of the queue.
+
+Overall, this assignment helped me better understand how different data structures can solve different problems, especially when organization and efficiency are important.
